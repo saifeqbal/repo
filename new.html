@@ -1,0 +1,44 @@
+// _buttons.scss
+
+// Variables
+$button-padding: 12px 24px;
+$button-font-size: 16px;
+$button-border-radius: 4px;
+$button-transition: all 0.3s ease;
+$green-transparent-color: rgba(46, 204, 113, 0.2); // Light transparent green
+$green-color: #2ecc71; // Solid green color for hover
+$button-text-color: #2ecc71;
+
+// Mixin for Transparent Button Style
+@mixin button-transparent($border-color, $text-color) {
+  background-color: transparent;
+  color: $text-color;
+  padding: $button-padding;
+  font-size: $button-font-size;
+  border: 2px solid $border-color;
+  border-radius: $button-border-radius;
+  cursor: pointer;
+  transition: $button-transition;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover {
+    background-color: $green-color; // Solid green on hover
+    color: #fff; // Change text color to white on hover
+  }
+
+  &:active {
+    background-color: darken($green-color, 10%);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lighten($green-color, 20%);
+  }
+}
+
+// Green Transparent Button
+.button-green-transparent {
+  @include button-transparent($green-color, $button-text-color);
+}
