@@ -42,3 +42,36 @@ $button-text-color: #2ecc71;
 .button-green-transparent {
   @include button-transparent($green-color, $button-text-color);
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Box Example</title>
+</head>
+<body>
+    <button id="openDialogBtn">Open Dialog</button>
+
+    <dialog id="myDialog">
+        <h2>Dialog Title</h2>
+        <p>This is a dialog box.</p>
+        <button id="closeDialogBtn">Close</button>
+    </dialog>
+
+    <script>
+        const dialog = document.getElementById('myDialog');
+        const openDialogBtn = document.getElementById('openDialogBtn');
+        const closeDialogBtn = document.getElementById('closeDialogBtn');
+
+        openDialogBtn.addEventListener('click', () => {
+            dialog.showModal();
+        });
+
+        closeDialogBtn.addEventListener('click', () => {
+            dialog.close();
+        });
+    </script>
+</body>
+</html>
+
