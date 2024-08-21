@@ -3,3 +3,4 @@ echo "<echo>  editor ***#"
 echo "codes9ec"
 echo "search" 
 echo mesw.sql
+echo hack()sh
