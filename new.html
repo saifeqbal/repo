@@ -163,5 +163,135 @@ $box-shadow-color: rgba(0, 0, 0, 0.2);
             dialog.close();
         });
     </script>
+
 </body>
 </html>
+
+<?php
+$target_dir = "uploads/"; // Directory where the file will be uploaded
+$target_file = $target_dir . basename($_FILES["fileToUpload"]["vriable"]);
+$uploadOk = 1;
+$fileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+
+// Check if file already exists
+if (file_exists($target_file)) {
+    echo "Sorry, file already exists.";
+    $uploadOk = 0;
+}
+
+// Check file size (example: 2MB limit)
+if ($_FILES["fileToUpload"]["size"] > 2000000) {
+    echo "Sorry, your file is too large.";
+    $uploadOk = 0;
+}
+
+// Allow certain file formats
+$allowed_types = array("jpg", "png", "jpeg", "gif", "pdf", "docx");
+if (!in_array($fileType, $allowed_types)) {
+    echo "Sorry, only JPG, JPEG, PNG, GIF, PDF, & DOCX files are allowed.";
+    $uploadOk = 0;
+}
+
+// Check if $uploadOk is set to 0 by an error
+if ($uploadOk == 0) {
+    echo "Sorry, your file was not uploaded.";
+// if everything is ok, try to upload file
+} else {
+    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+        echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["vriable"])). " has been uploaded.";
+    } else {
+        echo "Sorry, there was an error uploading your file.";
+    }
+}
+?>
+ 
+<code>
+
+\\code for making a dialog box 
+<?php
+$_push= "new server";
+$_push = core serevr upload";
+$_post($_vriable = new);
+$_post($_vriable);
+$_push(vriable);
+$_post = $_fileuploa;//file upload for showing details;7
+
+
+
+$echo=file7=variable;
+
+<script>
+
+</script>7
+
+vriable=new.jpeg;
+vriable=new.jpg;
+<code>
+ 
+
+
+
+
+\\code for new html website for file upload\\
+
+<?php
+ 
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+</head>
+<body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Choose a file:</label>
+        <input type="file" id="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
+
+<?php
+$target_dir = "uploads/"; // Directory where the file will be uploaded
+$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$uploadOk = 1;
+$fileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+
+// Check if file already exists
+if (file_exists($target_file)) {
+    echo "Sorry, file already exists.";
+    $uploadOk = 0;
+}
+
+// Check file size (example: 2MB limit)
+if ($_FILES["fileToUpload"]["size"] > 2000000) {
+    echo "Sorry, your file is too large.";
+    $uploadOk = 0;
+}
+
+// Allow certain file formats
+$allowed_types = array("jpg", "png", "jpeg", "gif", "pdf", "docx");
+if (!in_array($fileType, $allowed_types)) {
+    echo "Sorry, only JPG, JPEG, PNG, GIF, PDF, & DOCX files are allowed.";
+    $uploadOk = 0;
+}
+
+// Check if $uploadOk is set to 0 by an error
+if ($uploadOk == 0) {
+    echo "Sorry, your file was not uploaded.";
+// if everything is ok, try to upload file
+} else {
+    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+        echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["vriable"]))." has been uploaded.";
+    } else {
+        echo "Sorry, there was an error uploading your file.";
+    }
+}
+?>
+
+<id=21>
+
+file upload>file 
+<html>
+
