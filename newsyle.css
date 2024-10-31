@@ -5,8 +5,9 @@ background color:"gray";
 font-color:"blue";
 }
 .new 
- { background:{
-"orange";
+{ background:{
+"orange";}
+
 }
 icon{
 background 
@@ -14,9 +15,9 @@ background
 }
 </style>
 <json>
- .new 
+.new 
 {
-background: "violet"
+background: "violet";
 font-size: 25;
 } 
 </json>
