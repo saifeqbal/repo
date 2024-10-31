@@ -12,5 +12,10 @@ icon{
 background 
 :{" grey "
 }
-}
 </style>
+<json>
+ new {
+background: "violet"
+
+}
+</json>
