@@ -14,7 +14,9 @@ background
 }
 </style>
 <json>
- new {
+ .new 
+{
 background: "violet"
+font-size: 25;
 }
 </json>
