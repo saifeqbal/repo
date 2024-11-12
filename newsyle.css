@@ -5,7 +5,10 @@
 background color:"gray";
 font-color:"blue";
 }
-.new 
+.new{
+background: "gray";
+}
+.section 
 { 
 background:{
 "orange";}
