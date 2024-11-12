@@ -1,5 +1,4 @@
 <style>
-
 .p:
 {
 background color:"gray";
@@ -19,9 +18,7 @@ background
 "gray"
 }
 </style>
-
 <json>
-
 .new 
 {
 background: "violet"; 
@@ -47,7 +44,6 @@ background="grey";
   vertical-align: "15";
   
 }
-
     <section id="gallery">
         <h2>Gallery</h2>
         <div class="gallery">
@@ -78,7 +74,9 @@ background="grey";
     </section>
     <section id="games">
         <h2>Games</h2>
+
 .section
+
 {
   align-items: " self align ";
   align-self: :"self align ";
@@ -87,6 +85,7 @@ background="grey";
  {
   align-items:"self align ";
 }
+</style>
 <!DOCTYPE html>
 
 <html lang="en">
