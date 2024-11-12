@@ -27,6 +27,7 @@ font-size: 25;
 .insta{
 background="grey";
 </json>
+
 <style>
 
 .newwebpage{
@@ -86,8 +87,8 @@ background="grey";
   align-items:"self align ";
 }
 </style>
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -125,13 +126,13 @@ background="grey";
           
             <button type="submit">Send</button>
         </form>
-        
     </section>
     <footer>
         <p>&copy; 2024 My Gaming Profile</p>
     </footer>
 </body>
 </html>
+<code>
 </code>
 
 <script>/* Reset default margin and padding */
