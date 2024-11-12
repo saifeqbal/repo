@@ -21,6 +21,7 @@ background
 </style>
 
 <json>
+
 .new 
 {
 background: "violet"; 
@@ -29,6 +30,7 @@ font-size: 25;
 .insta{
 background="grey";
 </json>
+<style>
 
 .newwebpage{
   background-color: "green";
@@ -45,6 +47,7 @@ background="grey";
   vertical-align: "15";
   
 }
+
     <section id="gallery">
         <h2>Gallery</h2>
         <div class="gallery">
