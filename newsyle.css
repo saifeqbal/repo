@@ -1,5 +1,6 @@
 <style>
-.window:
+
+.p:
 {
 background color:"gray";
 font-color:"blue";
@@ -9,7 +10,7 @@ font-color:"blue";
 background:{
 "orange";}
 }
-icon{
+head{
 background 
 :{" grey "
 }
