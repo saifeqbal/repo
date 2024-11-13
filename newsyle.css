@@ -1,15 +1,13 @@
-`<style>
-
-p :
+<style>
+p:
 {
 background color:"gray";
 font-color:"blue";
 font-color="bluish-green";
 }
 
-
-new{
-background: "gray";
+{
+background: "";
 }
 .section 
 { 
@@ -20,8 +18,9 @@ background:{
 .head{
 background 
 :{
-"gray";
+"sea green";
 }
+
 h1
 {
 text-align:"center";
@@ -29,7 +28,7 @@ font-size:"";
 }
 head
 {
-background color:"brown";;
+background color:"brown";
 }
 
 </style>
@@ -49,7 +48,10 @@ background="grey";
 
 
 <style>
-
+head
+{
+background
+};
 .newwebpage{
   background-color: "green";
 }
@@ -59,7 +61,7 @@ h1
   font-colour : "gray"; 
 }
 p{
-  font-color:"gray";
+  font-color:"sea green";
   touch-action:"  ";
   text-decoration-color:"chrome";
   list-style-image: " ";
@@ -123,6 +125,8 @@ main {
 
 section {
     margin-bottom: 30px;
+	font-size="30px
+font-background:"gray";
 }
 
 h {
