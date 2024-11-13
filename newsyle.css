@@ -1,10 +1,14 @@
-<style>
-.p:
+`<style>
+
+p :
 {
 background color:"gray";
 font-color:"blue";
+font-color="bluish-green";
 }
-.new{
+
+
+new{
 background: "gray";
 }
 .section 
@@ -12,130 +16,61 @@ background: "gray";
 background:{
 "orange";}
 }
-head{
+
+.head{
 background 
 :{
-"gray"
+"gray";
 }
+h1
+{
+text-align:"center";
+font-size:"";
+}
+head
+{
+background color:"brown";;
+}
+
 </style>
+
 <json>
+
 .new 
 {
 background: "violet"; 
 font-size: 25;
 } 
-.insta{
+.insta
+{
 background="grey";
+}
 </json>
+
 
 <style>
 
 .newwebpage{
   background-color: "green";
 }
-.h1 
+
+h1 
 { 
   font-colour : "gray"; 
 }
-.p{
+p{
   font-color:"gray";
   touch-action:"  ";
   text-decoration-color:"chrome";
-  list-style-image: "";
+  list-style-image: " ";
   vertical-align: "15";
   
 }
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Gaming Image 1">
-            <img src="image2.jpg" alt="Gaming Image 2">
-            <img src="image3.jpg" alt="Gaming Image 3">
-        </div>
- <h1>My Gaming Profile</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#games">Games</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-<section>
-<ul>
-            <li>Game 1 call of dragon</li>
-            <li>Game 2 street fighter iv</li>
-            <li>Game 3 ronin</li>
-        </ul>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my gaming  website and profile! I'm a passionate gamer and streamer. Here you'll find information about my favorite games, achievements, and some awesome gaming moments.</p>
-    </section>
-    <section id="games">
-        <h2>Games</h2>
-
-.section
-
-{
-  align-items: " self align ";
-  align-self: :"self align ";
-}
-.p
- {
-  align-items:"self align ";
-}
 </style>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamer Profile</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-       <ul>
-            <li>Game 1 call of dragon</li>
-            <li>Game 2 street fighter iv</li>
-            <li>Game 3 ronin</li>
-        </ul>
-    </section>
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Gaming Image 1">
-            <img src="image2.jpg" alt="Gaming Image 2">
-            <img src="image3.jpg" alt="Gaming Image 3">
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-          
-            <button type="submit">Send</button>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Gaming Profile</p>
-    </footer>
-</body>
-</html>
-<code>
-</code>
 
-<script>/* Reset default margin and padding */
+<script>
+/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
