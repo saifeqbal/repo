@@ -1,16 +1,16 @@
 <style>
-p 
-:
+p:
 {
 background color:"gray";
 font-color:"blue";
 font-color="bluish-green";
 }
-h
+h : 
 {
 background: "blue";
 }
-section 
+
+section:
 { 
 background:
 {
@@ -18,21 +18,23 @@ background:
 }
 }
 
-head 
+head:
 {
-background 
+text-style:"Latin"; 
+}
+
 {
 "sea green";
 }
 }
 
-h1
+h1 :
 {
 text-align:"center";
 font-size:"";
 }
 
-head
+head: 
 {
 background color:"brown" ;
 background-color: "brown";
