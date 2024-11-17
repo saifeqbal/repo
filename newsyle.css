@@ -1,24 +1,29 @@
 <style>
-p:
+p 
+:
 {
 background color:"gray";
 font-color:"blue";
 font-color="bluish-green";
 }
-
+h
 {
-background: "";
+background: "blue";
 }
-.section 
+section 
 { 
-background:{
-"orange";}
+background:
+{
+"orange";
+}
 }
 
-.head{
+head 
+{
 background 
-:{
+{
 "sea green";
+}
 }
 
 h1
@@ -26,15 +31,16 @@ h1
 text-align:"center";
 font-size:"";
 }
+
 head
 {
-background color:"brown";
+background color:"brown" ;
+background-color: "brown";
 }
-
 </style>
 
-<json>
 
+<json>
 .new 
 {
 background: "violet"; 
@@ -47,6 +53,7 @@ background="grey";
 </json>
 
 
+
 <style>
 head
 {
@@ -55,7 +62,6 @@ background
 .newwebpage{
   background-color: "green";
 }
-
 h1 
 { 
   font-colour : "gray"; 
@@ -70,8 +76,8 @@ p{
 }
 </style>
 
-
 <script>
+
 /* Reset default margin and padding */
 * {
     margin: 0;
