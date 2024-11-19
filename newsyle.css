@@ -9,7 +9,6 @@ h :
 {
 background: "blue";
 }
-
 section:
 { 
 background:
@@ -17,21 +16,25 @@ background:
 "orange";
 }
 }
-
 head:
 {
 text-style:"Latin"; 
+background-color:"orange"; 
 }
-
+h1:
 {
 "sea green";
 }
+h
+{
+font-color :"sepia";
+text-style:"highlight";
 }
 
-h1 :
+h1:
 {
 text-align:"center";
-font-size:"";
+font-size:"90px ";
 }
 
 head: 
@@ -64,9 +67,11 @@ background
 .newwebpage{
   background-color: "green";
 }
+
 h1 
 { 
   font-colour : "gray"; 
+font size: 90;
 }
 p{
   font-color:"sea green";
