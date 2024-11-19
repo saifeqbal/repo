@@ -28,7 +28,7 @@ h1:
 h
 {
 font-color :"sepia";
-text-style:"highlight";
+text-style:"underline";
 }
 
 h1:
@@ -85,6 +85,7 @@ p{
 
 <script>
 
+<json>
 /* Reset default margin and padding */
 * {
     margin: 0;
@@ -204,6 +205,7 @@ footer {
 footer p {
     margin: 0;
 }
+
  </script>
  
  <json>
