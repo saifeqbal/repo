@@ -13,6 +13,7 @@ call of dregons
 </rows>
 
 <column>
+
 number of games =3;
 </column>
 
@@ -25,6 +26,7 @@ number of views = "count";
 
 </form>
 </rows>
+
 <column>
 number of games =3
 <column>
@@ -32,8 +34,127 @@ number of games =3
 <style>
 
 </style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #3b3b5c);
+  color: #fff;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+/* Header */
+header {
+  background: #1a1a3d;
+  color: #f9c74f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Navigation Bar */
+nav {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f9c74f;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00d4ff;
+}
+<style>
+/* Main Content */
+main {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #00d4ff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.game-container h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #f9c74f;
+}
+
+.game-container button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background: #00d4ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.game-container button:hover {
+  background: #f9c74f;
+  color: #222;
+}
+
+/* Footer */
+footer {
+  background: #1a1a3d;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #f9c74f;
+}
+</style>
 <!doctype html>
 <html>
 <body>
