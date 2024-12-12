@@ -209,42 +209,7 @@ footer p {
  </script>
  
  <json>
- {
-  "website": {
-    "title": "My Gaming Profile",
-    "header": {
-      "title": "My Gaming Profile",
-      "nav": [
-        { "label": "About Me", "link": "#about" },
-        { "label": "Games", "link": "#games" },
-        { "label": "Gallery", "link": "#gallery" },
-        { "label": "Contact", "link": "#contact" }
-      ]
-    },
-    "sections": [
-      {
-        "id": "about",
-        "title": "About Me",
-        "content": "Welcome to my gaming profile! I'm a passionate gamer and streamer. Here you'll find information about my favorite games, achievements, and some awesome gaming moments."
-      },
-      {
-        "id": "games",
-        "title": "Games",
-        "list": [
-          "Game 1",
-          "Game 2",
-          "Game 3"the
-        ]
-      }
-      {
-        "id": "gallery",
-        "title": "Gallery",
-        "images": [
-          { "src": "images/image1.jpg", "alt": "Gaming Image 1" },
-          { "src": "images/image2.jpg", "alt": "Gaming Image 2" },
-          { "src": "images/image3.jpg", "alt": "Gaming Image 3" }
-        ]
-      },
+ 
       {
         "id": "contact",
         "title": "Contact",
