@@ -210,24 +210,7 @@ footer p {
  
  <json>
  
-      {
-        "id": "contact",
-        "title": "Contact",
-        "form": {
-          "fields": [
-            { "label": "Name", "type": "text", "id": "name", "name": "name", "required": true },
-            { "label": "Email", "type": "email", "id": "email", "name": "email", "required": true },
-            { "label": "Message", "type": "textarea", "id": "message", "name": "message", "required": true }
-          ],
-          "button": { "type": "submit", "label": "Send" }
-        }
-      }
-    ],
-    "footer": {
-      "content": "&copy; 2024 My Gaming Profile"
-    }
-  }
-}
+    
 
  sass styles.scss styles.css
  
