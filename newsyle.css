@@ -64,6 +64,13 @@ head
 {
 background
 };
+.img
+{
+border:"2px"
+breadth:100%;
+width:100%;
+}
+
 .newwebpage{
   background-color: "green";
 }
