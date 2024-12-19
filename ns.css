@@ -254,7 +254,7 @@ header
   {
     align-items: "left";
     animation-play-state:"blend";
-    block-size: "60%";
+    block-size: "80%";
     border-block-end-width: "70px";
     image-size= 90px;
     image-size=70px;
@@ -285,7 +285,7 @@ header
     caret-color: "violet";
     canvas-size : "80%";
     size = 80%;
-    block-size:"80px";
+    block-size:"600px";
     visibility: "100%";
   }
 }
@@ -320,7 +320,8 @@ header
       font-language-override: "times new roman";
       size = " 90";
   }
-  canvas{
+  canvas{}
+
    canvas{
      
    } 
@@ -330,40 +331,9 @@ header
     
   }
     content= " n3";
-    border-block-start-color: "";
-    background-blend-mode: "";animation-duration: "
-  <address="www.github.com/saifeqbal/repo">
-    <section id 
-="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Gaming Image 1"> 
-            <img src="image2.jpg" alt="Gaming Image 2">
-            <img src="image3.jpg" alt="Gaming Image 3">
-        </div>
- <h1>My Gaming Profile</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#games">Games</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    
 </section>
-<section>
-<ul>
-            <li>Game 1 call of dragon</li>
-            <li>Game 2 street fighter iv</li>
-            <li>Game 3 ronin</li>
-        </ul>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my gaming  website and profile! I'm a passionate gamer and streamer. Here you'll find information about my favorite games, achievements, and some awesome gaming moments
-</p>
-    </section>
+
     <section id ="games">
         <h2>Games</h2>
 </style>
@@ -379,56 +349,7 @@ header
   align-items:"self align ";
 }
 animation-name : animation: "glide ";
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamer Profile</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-    <h>id>
-    <h>
-    ruined
-    </h>
-    </h>
-<body>
-    <header>
-       <ul>
-            <li>Game 1 call of dragon</li>
-            <li>Game 2 street fighter iv
-</li>
-            <li>Game 3 ronin</li>
-        </ul>
-    </section>
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Gaming Image 1">
 
-            <img src="image2.jpg" alt="Gaming Image 2">
-            <img src="" alt="Gaming Image 3">
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Gaming Profile</p>
-    </footer>
-</body>
-</html>
 </code>
 
 <nav>  
