@@ -256,8 +256,8 @@ header
     animation-play-state:"blend";
     block-size: "80%";
     border-block-end-width: "70px";
-    image-size= 90px;
-    image-size=70px;
+    image-size= 100px;
+    image-size=100px;
     size = 70% ;
     width = 60% ;
     height= 40%;
@@ -309,6 +309,7 @@ header
   }
     image1 
     {
+      w
       border-top-color: "orange";
       align-self: "center";
       animation-fill-mode: " blur" ; 
@@ -318,7 +319,8 @@ header
       flex-direction
       " center";
       font-language-override: "times new roman";
-      size = " 90";
+      width:209;
+height200:";
   }
   canvas{}
 
