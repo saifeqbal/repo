@@ -100,7 +100,7 @@ form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"
             <button type="submit" font-color="brown ">Send
 </button>
         </form>
-<?hp 
+<?php 
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect and sanitize the input data
@@ -114,6 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Contact: " . $contact . "<br>";
     echo "Email: " . $email . "<br>";
 }
+?>
 
     </section>
     <footer>
