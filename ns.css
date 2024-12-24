@@ -257,9 +257,9 @@ header
     block-size: "80%";
     border-block-end-width: "70px";
     ;
-    size = 70% ;
-    width = 60% ;
-    height= 40%;
+    size = 100% ;
+    width = 100% ;
+    height= 100%;
     animation-iteration-count: 3;
     animation-name: "align";
     animation: "glide";
@@ -274,7 +274,7 @@ header
     border-inline-end-style: " ";
     block-size: "80%";
     animation-fill-mode: "glitter";
-    size= 70%;
+    size= 100%;
     visibility:"90%";
   }
   image3
