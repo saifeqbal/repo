@@ -1,4 +1,4 @@
-width<style>
+<style>
 p:
 {
 background color:"gray";
@@ -66,10 +66,9 @@ background
 };
 .img
 {
-border:"2px"
-:100%;
+border:"2px";
 width:100%;
-height:100
+height:100%; 
 }
 
 .newwebpage{
@@ -85,7 +84,6 @@ p{
   font-color:"sea green";
   touch-action:"  ";
   text-decoration-color:"chrome";
-  list-style-image: " ";
   vertical-align: "15";
   
 }
@@ -147,7 +145,7 @@ main {
 
 section {
     margin-bottom: 30px;
-	font-size="30px
+	font-size= 40px;
 font-background:"gray";
 }
 
@@ -270,8 +268,8 @@ section {
         gap: 1rem;
         
         img {
-            width: 200px;
-            height: auto;
+            width: 100%;
+            height: 100%;
             border-radius: 5px;
         }
     }
