@@ -93,7 +93,7 @@ header nav a:hover {
 
 .gallery img {
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -231,7 +231,7 @@ section
 .h1 
 { 
   font-colour : "gray"; 
-  text-color- " brown";
+  text-color:" brown";
 }
 .p
 {
@@ -242,7 +242,7 @@ section
   text-decoration-color:"chrome";
   list-style-image: " ";
   vertical-align: "15";
-  text-color:"yellow";
+  text-color "yellow";
 }
 </style>
 
@@ -256,8 +256,7 @@ header
     animation-play-state:"blend";
     block-size: "80%";
     border-block-end-width: "70px";
-    image-size= 100px;
-    image-size=100px;
+    ;
     size = 70% ;
     width = 60% ;
     height= 40%;
@@ -284,7 +283,7 @@ header
     animation-direction: "right";
     caret-color: "violet";
     canvas-size : "80%";
-    size = 80%;
+    size = 100%;
     block-size:"600px";
     visibility: "100%";
   }
@@ -319,8 +318,8 @@ header
       flex-direction
       " center";
       font-language-override: "times new roman";
-      width:209;
-height:200;
+      width:100%;
+height :100%;
   }
   canvas{}
 
@@ -501,18 +500,10 @@ footer p {
         "list": [
           "Game 1",
           "Game 2",
-          "Game 3"the
+          "Game 3"
         ]
       }
-      {
-        "id": "gallery",
-        "title": "Gallery",
-        "images": [
-          { "src": "images/image1.jpg", "alt": "Gaming Image 1" },
-          { "src": "images/image2.jpg", "alt": "Gaming Image 2" },
-          { "src": "images/image3.jpg", "alt": "Gaming Image 3" }
-        ]
-      },
+      
       {
         "id": "contact",
         "title": "Contact",
@@ -585,7 +576,7 @@ section {
         
         img 
       {
-            width: 200px;
+            width: auto;
             height: auto;
             border-radius: 5px;
         }
