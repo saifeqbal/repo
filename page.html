@@ -21,7 +21,22 @@
         </table>
         <button onclick="addGamer()">Add Gamer</button>
     </div>
-  
+ <script>//to show gamers count
+let gamerCount = 0;
+
+function addGamer() {
+    gamerCount++;
+    const tableBody = document.querySelector('#gamersTable tbody');
+    const newRow = document.createElement('tr');
+    newRow.innerHTML = `
+        <td>${gamerCount}</td>
+        <td>Gamer${gamerCount}</td>
+        <td>Logged In</td>
+    `;
+    tableBody.appendChild(newRow);
+}
+>	
+</script>
   <title>"Hello world"</title>
   <link rel = "stylesheet", a href = "newsyle.css">
 <link rel= "stylesheet" a href = "newsyle.css">
@@ -106,21 +121,7 @@ add.EventListener.window.getElementByID("count");
         </div>
       </div>
 
-        <script>//to show gamers count
-let gamerCount = 0;
-
-function addGamer() {
-    gamerCount++;
-    const tableBody = document.querySelector('#gamersTable tbody');
-    const newRow = document.createElement('tr');
-    newRow.innerHTML = `
-        <td>${gamerCount}</td>
-        <td>Gamer${gamerCount}</td>
-        <td>Logged In</td>
-    `;
-    tableBody.appendChild(newRow);
-}
->
+        <
         <footer background="brown", border="white",border-shading="white";>  
         <h style=text-align="center", font-size="40", text-style="bold";> Please note that the link will up  for only a few minutes
         </h>
