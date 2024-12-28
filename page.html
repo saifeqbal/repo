@@ -15,6 +15,7 @@
      </h1>
   <head>
       <p id ="class", text-align="center," font-style="Italics"; font-size=40,font-margin=1px, font-color="red" ,align="center", font-style=Underline, function=on-hover( ) border="red" >
+
     Page for the game stream
     Login for more.
   </p>
@@ -36,7 +37,40 @@
                    , alt="youtube",title=" game stream">
 Streamlink 
         </iframe>
-     </container>     
+     </container>   
+
+//for creating a table 
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamers Logged In</title>
+    <link rel="stylesheet" href="newsyle.css">
+<link rel="stylesheet"
+</head>
+<body>
+    <div class="container">
+        <h1>Number of Gamers Logged In</h1>
+        <table id="gamersTable">
+            <thead>
+                <tr>
+                    <th>Gamer ID</th>
+                    <th>Username</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Gamer data will be inserted here -->
+            </tbody>
+        </table>
+        <button onclick="addGamer()">Add Gamer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
  <form>
         <title>
           games
@@ -56,6 +90,7 @@ count=count++;
 add.EventListener.window.getElementByID("count");
 }
       </script>
+
       <progress
      contenteditable= " progress" >
         <picture src=" progressbar.jpg",>
@@ -72,7 +107,22 @@ add.EventListener.window.getElementByID("count");
         </div>
         </div>
       </div>
-        
+
+        <script>//to show gamers count
+let gamerCount = 0;
+
+function addGamer() {
+    gamerCount++;
+    const tableBody = document.querySelector('#gamersTable tbody');
+    const newRow = document.createElement('tr');
+    newRow.innerHTML = `
+        <td>${gamerCount}</td>
+        <td>Gamer${gamerCount}</td>
+        <td>Logged In</td>
+    `;
+    tableBody.appendChild(newRow);
+}
+>
         <footer background="brown", border="white",border-shading="white";>  
         <h style=text-align="center", font-size="40", text-style="bold";> Please note that the link will up  for only a few minutes
         </h>
