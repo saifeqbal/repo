@@ -13,13 +13,12 @@
 <table  >
 <rows>Gamers
 </rows>
-<columns>loggedIn
+<columns>loggedIn<
 </columns>
 <columns>count
 </columns>
 <columns>Online ?
 </columns> 
-</table>
 <thead>
                 <tr>
                     <th>Gamer ID</th>
@@ -42,10 +41,11 @@ function addGamer() {
     newRow.innerHTML = 
         <td>${gamerCount}</td>
         <td>Gamer${gamerCount}</td>
-        <td>Logged In</td>
+        <td>Logged In${gamerCount}</td>
+
+
     tableBody.appendChild(newRow);
 }
-
 </script>
   <title>"Hello world"</title>
   <link rel = "stylesheet", a href = "newsyle.css">
