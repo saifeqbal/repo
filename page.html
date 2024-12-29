@@ -3,20 +3,23 @@
 <head style= border=black; >
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
 <body>
+
 <title>Gamers Logged In</title>
     <div class="container">
         <h1>Number of Gamers Logged In</h1>
         <table id="gamersTable">
 <title> Gamers</title>
             <thead>
+<table  >
 <rows>Gamers
 </rows>
 <columns>loggedIn
 </columns>
 <columns>count
 </columns>
-<columns>
-</columns> Online?
+<columns>Online 
+</columns> 
+</table>
 <thead>
                 <tr>
                     <th>Gamer ID</th>
@@ -24,10 +27,8 @@
                     <th>Status</th>
                 </tr>
             </thead>
-
             <tbody>
                 <!-- Gamer data will be inserted here -->
-
             </tbody>
         </table>
         <button onclick="addGamer()">Add Gamer</button>
@@ -38,25 +39,23 @@ function addGamer() {
     gamerCount++;
     const tableBody = document.querySelector('#gamersTable tbody');
     const newRow = document.createElement('tr');
-    newRow.innerHTML = `
+    newRow.innerHTML = 
         <td>${gamerCount}</td>
         <td>Gamer${gamerCount}</td>
         <td>Logged In</td>
-  
     tableBody.appendChild(newRow);
 }
+
 </script>
   <title>"Hello world"</title>
   <link rel = "stylesheet", a href = "newsyle.css">
 <link rel= "stylesheet" a href = "newsyle.css">
 </head>
 <body>
- 
   <h1 style= align="center" , font-decoration="dim", text-align="center";> Gamers  
      </h1>
   <head>
       <p id ="class", text-align="center," font-style="Italics"; font-size=40,font-margin=1px, font-color="red" ,align="center", font-style=Underline, function=on-hover( ) border="red" >
-
     Page for the game stream
     Login for more.
   </p>
