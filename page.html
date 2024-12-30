@@ -1,11 +1,13 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head style= border=black; background-color="black";>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-<body>
+
+<body style=background-color="brown">
 <title>Gamers Logged In</title>
     <div class="container" style=background-color="brown",size="auto", background-color="black",border=shade", border=3,3 , >
-        <h1 font-style="resize",  >Number of Gamers Logged In</h1>
+        <h1 font-style="resize",>Number of Gamers Logged In</h1>
         <table id="gamersTable">
 <title> Gamers</title>
            <thead>
@@ -17,14 +19,26 @@
 <col>count
 </col>
 <columns>Online ?
-</col> 
+</col>
+
+gamersTable{
+border="rounded";
+tr="30px";
+}
 <thead style=border="1,1", border="rounded",border-endcolor="red",>
                 <tr>
+<cell>
                     <th>Gamer ID</th>
+</cell>
+<cell>
                     <th>Username</th>
+</cell> 
+
+<cell>
                     <th>Status</th>
+</cell>
                 </tr>
-            </thead>
+            </thead style= border="40px">
             <tbody>
                 <!-- Gamer data will be inserted here -->
             </tbody>
