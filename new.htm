@@ -34,6 +34,7 @@ console.log(
 document.getElemenetByiD("usercount"));
 </script>
 </p>
+
 <script>
 // Function to simulate fetching stream count
 function fetchStreamCount() {
@@ -48,6 +49,27 @@ window.onload = fetchStreamCount;
 <iframe src="http://127.0.0.1:8080" , width="800", height= "800">
 </iframe>
 
+// Function to simulate fetching stream count
+function fetchStreamCount() {
+    // Simulate an API call with a random number
+    const randomCount = Math.floor(Math.random() * 1000); // Random count between 0 and 999
+    document.getElementById('stream-count').innerText = randomCount;
+}
+
+// Event listener for the refresh button
+document.getElementById('refresh-button').addEventListener('click', fetchStreamCount);
+
+// Fetch the initial stream count when the page loads
+window.onload = fetchStreamCount;
+<
 </div>
+<div id ="section">
+
+ <div id = "dialogbox " , width= 100,height= 100,>
+window.console.log.display("fetchStreamCount");
+<div id = window ",resize:auto, scale="devicewidth"; 
+function= window.cosole.log.dispay("fetchStreamCount"), >
+</div>
+
 </head>
 </body>
