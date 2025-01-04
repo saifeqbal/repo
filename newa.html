@@ -324,8 +324,194 @@ vile of point
             <line id="du-blocked" x1="839" y1="545" x2="582" y2="789" style="stroke: black;"/>
         </svg>
     </div>
-<div id = "new section ">
+<div id = "new section",function=onclick()>
 
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Page</title>
+    <link rel="stylesheet" href="newsyle.css">
+</head>
+
+<body style="background-color:gray;">
+    <!-- Section: Buttons -->
+    <div id="buttons">
+        <button id="openDialogBtn">Open Dialog</button>
+        <div id="button" src="user.js" onclick="deta();">User Count</div>
+    </div>
+    <!-- Section: Dialog Box -->
+    <dialog id="myDialog">
+        <h2>Dialog Title</h2>
+        <p>This is a dialog box.</p>
+        <button id="closeDialogBtn">Close</button>
+    </dialog>
+    <!-- Section: Window Display -->
+    <section id="window-display">
+        <h2>Window Display</h2>
+        <div class="window-content">
+
+            <div class="window" style="width: 300px; height: 300px; background-color: #3498db; animation: gliding 3s infinite;">
+
+                <p style="color: white; text-align: center; line-height: 300px;">Window Content</p>
+            </div>
+        </div>
+        <style>
+            @keyframes gliding {
+                0% { transform: translateX(0); }
+                50% { transform: translateX(100px); }
+                100% { transform: translateX(0); }
+            }
+        </style>
+    </section>
+    <!-- Section: JavaScript Functions -->
+    <script>
+        function deta() {
+            var user = 1;
+        }
+        function setusername(user = 0) {
+            function username() {
+                user++;
+            }
+            var usercount = 1;
+            return usercount;
+        }
+  console.log(document.getElementById("usercount"));
+
+        // Function to simulate fetching stream count
+        function fetchStreamCount() {
+            const randomCount = Math.floor(Math.random() * 1000);
+            document.getElementById('stream-count').innerText = randomCount;
+        }
+        // Event listener for the refresh button document.getElementById('refresh-button').addEventListener('click', fetchStreamCount);
+        // Fetch the initial stream count when the page loads
+        window.onload = fetchStreamCount;
+        // Dialog box script
+        const dialog = document.getElementById('myDialog');
+        const openDialogBtn = document.getElementById('openDialogBtn');
+        const closeDialogBtn = document.getElementById('closeDialogBtn');
+        openDialogBtn.addEventListener('click', () => {
+            dialog.showModal();
+        });
+
+        closeDialogBtn.addEventListener('click', () => {
+            dialog.close();
+        });
+    </script>
+
+    <!-- Section: Styles -->
+
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        /* Button Styles */
+        #buttons {
+            padding: 20px;
+        }
+
+        /* Dialog Box Styles */
+        .dialog-box {
+            width: 300px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .dialog-header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .dialog-content {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .dialog-actions {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn.confirm {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .btn.cancel {
+            background-color: #e74c3c;
+            color: #fff;
+        }
+    </style>
+    
+    <iframe src="http://127.0.0.1:8080" width="800" height="800">
+</iframe>
+    <!-- Section: PHP File Upload -->
+    <div id="file-upload">
+
+        <?php
+        $target_dir = "uploads/";
+        $target_file = $target_dir . basename($_FILES["fileToUpload"]["vriable"]);
+        $uploadOk = 1;
+        $fileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+        if (file_exists($target_file))
+ {
+            echo "Sorry, file already exists.";
+            $uploadOk = 0;
+        }
+
+        if ($_FILES["fileToUpload"]["size"] > 2000000) {
+            echo "Sorry, your file is too large.";
+            $uploadOk = 0;
+        }
+        $allowed_types = array("jpg", "png", "jpeg", "gif", "pdf", "docx");
+        if (!in_array($fileType, $allowed_types)) {
+            echo "Sorry, only JPG, JPEG, PNG, GIF, PDF, & DOCX files are allowed.";
+            $uploadOk = 0;
+        }
+        if ($uploadOk == 0) {
+            echo "Sorry, your file was not uploaded.";
+        } 
+else {
+            if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) 
+{
+                echo "The file ". htmlspecialchars(basename($_FILES["fileToUpload"]["vriable"])). " has been uploaded.";
+            }
+ else
+ {
+                echo "Sorry, there was an error uploading your file.";
+            }
+        }
+        ?>
+    </div>
+    <!-- Section: SVG Graphics -->
+    <div id="svg-graphics">
+        <svg id="drawing">
+
+            <line id="dp" x1="677" y1="345" x2="523" y2="888" style="stroke: black; stroke-width: 3;" />
+            <line id="du-blocked" x1="839" y1="545" x2="582" y2="789" style="stroke: black;" />
+        </svg>
+    </div>
+</body>
+</html>
 </div>
 </body>
 </html>
