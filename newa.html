@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Page</title>
+  <link rel="stylesheet" href="newsyle.css">
+</head>
+<body style="background-color:gray;">
+
+  <div id="body" style="background-color:gray;"> 
+    <p>I n user frame1</p>
+    <div id="button" src="user.js" onclick="deta();">User Count</div>
+    <div id="window" onmouseover="display();" style="width: 100%; background-color:gray;">
+      <script>
+        function deta() {
+          var user = 1;
+        }
+        function setusername(user = 0) {
+          function username() {
+            user++;
+          }
+          var usercount = 1;
+          return usercount;
+        }
+        console.log(document.getElementById("usercount"));
+      </script>
+      <style>
+        window {
+          width: 100px;
+          height: 100px;
+        }
+      </style>
+    </div>
+  </div>
+
+  <script>
+    // Function to simulate fetching stream count
+    function fetchStreamCount() {
+      const randomCount = Math.floor(Math.random() * 1000);
+      document.getElementById('stream-count').innerText = randomCount;
+    }
+    // Event listener for the refresh button
+    document.getElementById('refresh-button').addEventListener('click', fetchStreamCount);
+    // Fetch the initial stream count when the page loads
+    window.onload = fetchStreamCount;
+  </script>
+
+  <iframe src="http://127.0.0.1:8080" width="800" height="800"></iframe>
+
+  <div id="section">
+    <div id="dialogbox" style="width: 100px; height: 100px;">
+      <script>
+        function message() {
+          console.log("fetchStreamCount");
+          console.log(document.getElementById("message"));
+        }
+        function window() {
+          do {
+            console.log("gamersCount");
+          } while (userCount > 0);
+        }
+        var a = document.getElementById("fetchGamersCount").onclick;
+        return a;
+      </script>
+      <div style="resize:auto; scale:device-width; background-color:gray; border-endcolor:black;">
+        <div id="button"></div>
+        <script>
+          message();
+          window();
+        </script>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 5px;
+      color: #fff;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .section-one {
+      background-color: #3498db; /* Blue */
+    }
+    .section-two {
+      background-color: #e74c3c; /* Red */
+    }
+    .section-three {
+      background-color: #2ecc71; /* Green */
+    }
+    .section-four {
+      background-color: #f39c12; /* Orange */
+    }
+    .section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+      }
+      .section {
+        padding: 15px;
+      }
+    }
+  </style>
+
+</body>
+</html>
