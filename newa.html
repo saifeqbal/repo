@@ -3,15 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>New Page</title>
+
   <link rel="stylesheet" href="newsyle.css">
+
 </head>
+
 <body style="background-color:gray;">
 
   <div id="body" style="background-color:gray;"> 
     <p>I n user frame1</p>
+
     <div id="button" src="user.js" onclick="deta();">User Count</div>
+
+
     <div id="window" onmouseover="display();" style="width: 100%; background-color:gray;">
+
       <script>
         function deta() {
           var user = 1;
@@ -25,6 +33,7 @@
         }
         console.log(document.getElementById("usercount"));
       </script>
+
       <style>
         window {
           width: 100px;
@@ -33,29 +42,38 @@
       </style>
     </div>
   </div>
-
   <script>
     // Function to simulate fetching stream count
     function fetchStreamCount() {
       const randomCount = Math.floor(Math.random() * 1000);
-      document.getElementById('stream-count').innerText = randomCount;
+  document.getElementById('stream-count').innerText = randomCount;
     }
-    // Event listener for the refresh button
-    document.getElementById('refresh-button').addEventListener('click', fetchStreamCount);
+    // Event listener for the refresh button document.getElementById('refresh-button').addEventListener('click', fetchStreamCount);
     // Fetch the initial stream count when the page loads
     window.onload = fetchStreamCount;
+
   </script>
 
-  <iframe src="http://127.0.0.1:8080" width="800" height="800"></iframe>
+  <iframe src="http://127.0.0.1:8080", width="800" height="800">
 
-  <div id="section">
-    <div id="dialogbox" style="width: 100px; height: 100px;">
+</iframe>
+  <div id="section"> 
+<p>
+vile of point 
+</p>
+</div>
+    <div id="dialogbox" ,style="width= 100px; height= 100px;">
       <script>
-        function message() {
+        function message()
+ {
           console.log("fetchStreamCount");
-          console.log(document.getElementById("message"));
+        
+}
+ console.log(document.getElementById("message"));
         }
-        function window() {
+
+        function window() 
+{
           do {
             console.log("gamersCount");
           } while (userCount > 0);
@@ -68,8 +86,7 @@
           on-click(console.log("gamersCount"))>
         </div>
         <script>
-          message();
-          window();
+           message().show();
         </script>
       </div>
     </div>
@@ -128,6 +145,5 @@
       }
     }
   </style>
-
 </body>
 </html>
