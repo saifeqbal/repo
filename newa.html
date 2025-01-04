@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="newsyle.css">
 </head>
 <body style="background-color:gray;">
-
   <div id="body" style="background-color:gray;"> 
     <p>I n user frame1</p>
 </div>
@@ -15,7 +14,7 @@
 User Count
 </div>
     <div id="window" onmouseover="display();"
- style="width: 100%;background-color:gray;" >
+ style="width: 100%;background-color:gray;"  >
       <script>
         function deta()
  {
@@ -28,28 +27,25 @@ User Count
             user++;
 }
           var usercount = 1;
-
           return usercount;
-
         }
-
   console.log(document.getElementById("usercount"));
-
       </script>
       <style>
         window
  {
  
 }
-
 window 
 {
           width= 100px;
           height = 100px;
  }
+
       </style>
     </div>
   </div>
+
   <script>
     // Function to simulate fetching stream count
     function fetchStreamCount() {
@@ -62,15 +58,13 @@ window
   </script>
   <iframe src="http://127.0.0.1:8080", width="800" height="800">
 </iframe>
-  <div id="section"> 
+  <div id="section" > 
 <p>
 vile of point 
 </p>
-
 </div>
-    <div id="dialogbox" ,style="width= 100px; height= 100px; ">
+    <div id="dialogbox" ,style=width= 100px; height= 100px; >
       <script>
-
         function message()
  {
           console.log("fetchStreamCount");
@@ -78,27 +72,29 @@ vile of point
 }
  console.log(document.getElementById("message"));
         }
+
         function window() 
 {
           do {
             console.log("gamersCount");
           } while (userCount > 0);
         }
+
         var a = document.getElementById("fetchGamersCount").onclick;
         return a;
+
       </script>
+
       <div style="resize:auto; scale:device-width; background-color:gray; border-endcolor:black;">
-        <div id="button",function=on-hover("show)
+        <div id="button",function=on-hover("show")
           on-click(console.log("gamersCount"))>
         </div>
-
         <script>
            message().show();
         </script>
       </div>
     </div>
   </div>
-
   <style>
     * {
       margin: 0;
@@ -152,7 +148,6 @@ vile of point
       }
     }
   </style>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -162,20 +157,17 @@ vile of point
     <link rel="stylesheet" href="newsyle.css">
 </head>
 <body style="background-color:gray;">
-
     <!-- Section: Buttons -->
     <div id="buttons">
         <button id="openDialogBtn">Open Dialog</button>
         <div id="button" src="user.js" onclick="deta();">User Count</div>
     </div>
-
     <!-- Section: Dialog Box -->
     <dialog id="myDialog">
         <h2>Dialog Title</h2>
         <p>This is a dialog box.</p>
         <button id="closeDialogBtn">Close</button>
     </dialog>
-
     <!-- Section: JavaScript Functions -->
     <script>
         function deta() {
@@ -189,7 +181,6 @@ vile of point
             return usercount;
         }
         console.log(document.getElementById("usercount"));
-
         // Function to simulate fetching stream count
         function fetchStreamCount() {
             const randomCount = Math.floor(Math.random() * 1000);
@@ -204,11 +195,9 @@ vile of point
         const dialog = document.getElementById('myDialog');
         const openDialogBtn = document.getElementById('openDialogBtn');
         const closeDialogBtn = document.getElementById('closeDialogBtn');
-
         openDialogBtn.addEventListener('click', () => {
             dialog.showModal();
         });
-
         closeDialogBtn.addEventListener('click', () => {
             dialog.close();
         });
@@ -227,12 +216,10 @@ vile of point
             line-height: 1.6;
             background-color: #f4f4f4;
         }
-
         /* Button Styles */
         #buttons {
             padding: 20px;
         }
-
         /* Dialog Box Styles */
         .dialog-box {
             width: 300px;
@@ -243,41 +230,34 @@ vile of point
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             text-align: center;
         }
-
         .dialog-header {
             font-size: 20px;
             font-weight: bold;
             margin-bottom: 15px;
         }
-
-        .dialog-content {
+       .dialog-content {
             font-size: 16px;
             margin-bottom: 20px;
         }
-
         .dialog-actions {
             display: flex;
             justify-content: space-between;
         }
-
         .btn {
             padding: 10px 20px;
             border-radius: 5px;
             cursor: pointer;
             border: none;
         }
-
         .btn.confirm {
             background-color: #3498db;
             color: #fff;
         }
-
         .btn.cancel {
             background-color: #e74c3c;
             color: #fff;
         }
     </style>
-
     <!-- Section: iFrame -->
     <iframe src="http://127.0.0.1:8080" width="800" height="800"></iframe>
 
@@ -298,13 +278,11 @@ vile of point
             echo "Sorry, your file is too large.";
             $uploadOk = 0;
         }
-
         $allowed_types = array("jpg", "png", "jpeg", "gif", "pdf", "docx");
         if (!in_array($fileType, $allowed_types)) {
             echo "Sorry, only JPG, JPEG, PNG, GIF, PDF, & DOCX files are allowed.";
             $uploadOk = 0;
         }
-
         if ($uploadOk == 0) {
             echo "Sorry, your file was not uploaded.";
         } else {
