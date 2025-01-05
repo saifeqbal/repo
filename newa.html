@@ -279,7 +279,6 @@ vile of point
             echo "Sorry, your file is too large.";
             $uploadOk = 0;
         }
-
         $allowed_types = array("jpg", "png", "jpeg", "gif", "pdf", "docx");
         if (!in_array($fileType, $allowed_types)) {
             echo "Sorry, only JPG, JPEG, PNG, GIF, PDF, & DOCX files are allowed.";
@@ -295,7 +294,9 @@ vile of point
             }
         }   ?>
     </div>
+<div id = "frame">
 <iframe src="http://127.0.0.1:8080" width="800" height="800"></iframe>
+</div>
     <!-- Section: SVG Graphics -->
     <div id="svg-graphics">
         <svg id="drawing">
