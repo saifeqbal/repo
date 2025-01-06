@@ -14,26 +14,29 @@
 User Count
 </div>
     <div id="window" onmouseover="display()";
- style="width: 100%;background-color:gray;"  >
+ style="width: 100%;background-color:gray;" >
       <script>
+
         function deta()
  {
           var user = 1;
  }
         function setusername(user = 0) 
 {
-          function username() 
+       def function username() 
 {
             user++;
 }
           var usercount = 1;
           return usercount;
         }
+}
+
   console.log(document.getElementById("usercount"));
       </script>
-o
+
       <style>
-        window
+        .window
  {
  
 }
@@ -42,7 +45,6 @@ window
           width= 100px;
           height = 100px;
  }
-
       </style>
     </div>
   </div>
@@ -65,7 +67,7 @@ vile of point
 </div>
     <div id="dialogbox" ,style=width= 100px; height= 100px; >
       <script>
-        function message()
+       def  function message()
  {
           
         
@@ -271,13 +273,14 @@ vile of point
             echo "Sorry, file already exists.";
             $uploadOk = 0;
         }
-        if ($_FILES["fileToUpload"]["size"] >2000000) {
+        if ($_FILES["fileToUpload"]["size"]>2000000) {
             echo "Sorry, your file is too large.";
             $uploadOk = 0;
         }
-        $allowed_types = array("jpg", "png", "jpeg", "gif", "pdf", "docx");
-        if (!in_array($fileType, $allowed_types)) {
-            echo "Sorry, only JPG, JPEG, PNG, GIF, PDF, & DOCX files are allowed.";
+        $allowed_types = array("jpg", "png", "jpeg", "gif", "pdf", "docx"); 
+        if (!in_array($fileType, $allowed_types))
+ {
+            echo "Sorry, only JPG, JPEG, PNG, GIF, PDF, & DOCX files are allowed." ;
             $uploadOk = 0;
         }
         if ($uploadOk == 0) {
@@ -288,7 +291,8 @@ vile of point
             } else {
                 echo "Sorry, there was an error uploading your file.";
             }
-        }   ?>
+        }  
+ ?>
     </div>
 <div id = "frame">
 <iframe src="http://127.0.0.1:8080" width="800" height="800" ></iframe>
@@ -312,9 +316,7 @@ vile of point
     <title>New Page</title>
     <link rel="stylesheet" href="newsyle.css">
 </head>
-
 <body style="background-color:gray;">
-
     <!-- Section: Buttons -->
     <div id="buttons">
         <button id="openDialogBtn">Open Dialog</button>
@@ -345,7 +347,7 @@ User Count</div>
     </section>
     <!-- Section: JavaScript Functions -->
     <script>
-        function deta() {
+      def function deta() {
             var user = 1;
         }
         function setusername(user = 0) {
@@ -432,7 +434,6 @@ User Count</div>
             color: #fff;
         }
     </style>
-
     <iframe src="http://127.0.0.1:8080" width="800" height="800">
 </iframe>
     </div>
