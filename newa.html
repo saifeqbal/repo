@@ -262,7 +262,7 @@ vile of point
 
     <div id="file-upload">
 
-   <?php
+<?php
         $target_dir = "uploads/";
         $target_file = $target_dir . basename($_FILES["fileToUpload"]["vriable"]);
         $uploadOk = 1;
@@ -291,7 +291,7 @@ vile of point
         }   ?>
     </div>
 <div id = "frame">
-<iframe src="http://127.0.0.1:8080" width="800" height="800"></iframe>
+<iframe src="http://127.0.0.1:8080" width="800" height="800" ></iframe>
 </div>
     <!-- Section: SVG Graphics -->
     <div id="svg-graphics">
@@ -303,6 +303,7 @@ vile of point
 <div id = "new section",function>
 
 </div>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -311,11 +312,14 @@ vile of point
     <title>New Page</title>
     <link rel="stylesheet" href="newsyle.css">
 </head>
+
 <body style="background-color:gray;">
+
     <!-- Section: Buttons -->
     <div id="buttons">
         <button id="openDialogBtn">Open Dialog</button>
-        <div id="button" src="" onclick="deta();">User Count</div>
+        <div id="button" src="", onclick="deta();">
+User Count</div>
     </div>
     <!-- Section: Dialog Box -->
     <dialog id="myDialog">
@@ -370,7 +374,6 @@ vile of point
         closeDialogBtn.addEventListener('click', () => {
             dialog.close();
         });
-
     </script>
     <!-- Section: Styles -->
     <style>
@@ -429,6 +432,7 @@ vile of point
             color: #fff;
         }
     </style>
+
     <iframe src="http://127.0.0.1:8080" width="800" height="800">
 </iframe>
     </div>
