@@ -7,6 +7,37 @@
   <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<p>
+newwebpage for scorepoints</p>
+
+  <h1>Gamers Log</h1>
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>Game</th>
+        <th>Date</th>
+        <th>points</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</head>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gamers Log</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
   <h1>Gamers Log</h1>
   <table>
     <thead>
@@ -21,7 +52,22 @@
     <tbody>
     </tbody>
   </table>
+  <script src="gamers_log.js"></script>
+</body>
+</ht
   <script src="gamers_log.js">
+// script.js
+let table = document.querySelector("table");
+let rows = table.querySelectorAll("tr");
+
+rows.forEach(row => {
+  let cells = row.querySelectorAll("td");
+  cells.forEach(cell => {
+    cell.addEventListener("click", () => {
+      console.log(cell.textContent);
+    });
+  });
+});
 </script>
 </body>
 </html>
