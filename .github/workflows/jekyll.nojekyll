@@ -55,7 +55,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.https://github.com/saifeqbal/repo/blob/2d279f8fc3d9108c3f4f541fc410829a3783b3aa/index.html }}
     runs-on: ubuntu-latest
     needs: build
     steps:
