@@ -12,7 +12,7 @@
 <a href ="newweb.htm">
 link
 </p>
-<p font-type:"Calibri";font-color:"orange",font-size="89",text-align="center";>
+<p font-type:"Calibri";font-color:"orange",font-size="89",text-align="center"; >
 </p>
 </a>
 </p>
@@ -20,7 +20,7 @@ link
 <p style=font-color ="green", text-size=100, font-size=120, text-align= "center"> 
 </p>
 </link>
-<h id ="text" ,background-color=black,font-size = 60,  text-style="highlight",text-align="center",font-style="Italics",font-color= "orange";>
+<h id ="text" ,background-color=black,font-size = 60, text-style="highlight",text-align="center",font-style="Italics",font-color= "orange";>
 <a href="page.html" alt= "link2" text-align="center",align ="centre">page
 </a>
 </h>
@@ -36,7 +36,6 @@ link
 </head>
 </body>
 </html>
-
 <!DOCTYPE html>
 <html lang="en">
 <head style=border-style="rounded "; background-color= "brown";>
@@ -44,6 +43,7 @@ link
     <meta name="viewport" content="width=device-width", initial-scale=1.0">
     <title>Gamer Profile</title>
     <link rel="stylesheet",href="newsyle.css">
+
 </head>
 <body>
     <header>
@@ -55,15 +55,20 @@ link
      <li game 4 Galaxiaga</li> 
   </ul>
     </section>
+
     <section id="gallery">
         <h2>Gallery</h2>
         <div class="gallery">
             <img src = "streetfighter4.jpg"; alt="street fighter", height ="100",width="100">
+
 </img>
+
 <img src="callofdragons.jpg"; width ="100", height="100">
 </img>
+
            <img src ="tekken8.jpg"; alt="tekken",width ="150",height="150";>
 </img>
+
 <style>
 .galery
 { 
@@ -92,7 +97,6 @@ background-color="black" ;
     <section id="contact">
 
         <h2>Contact</h2>
-
         <form
 method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
             <label for="name">Name:</label>
@@ -102,9 +106,11 @@ method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
             <label for="message">Message:</label>
  <textarea id="message" name="message" required>
 </textarea>
+
             <button type="submit" font-color="brown ">Send
 </button>
         </form>
+
 <?php 
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -113,9 +119,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contact = htmlspecialchars($_POST['contact']);
     $email = htmlspecialchars($_POST['email']);
 ?>
+
     </section>
-    <footer>
+
+    <footer >
+
         <p>&copy; 2024 My Gaming Profile</p>
+
     </footer>
+<script>
+</script>
 </body>
 </html>
