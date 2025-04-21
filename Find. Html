@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Table Example</h1>
+    
+    <p></p></p>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Occupation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>crealna</td>
+                <td>28</td>
+                <td>Software Engineer</td>
+            </tr>
+            <tr><iframe src= "" , style equal to 100 p height = 100 p border colour = red 100  p>                
+            </iframe> 
+                <td>2</td>
+                <td>tabke</td>
+                <td>34</td>
+                <td>Data Scientist</td>
+            </tr>
+            
+            <tr> <tr>
+                <td>2</td>
+                <td> new</td>
+                <td>34</td>
+                <td>Data Scientist</td>
+            </tr>
+                <td>3</td>
+                <td>nee hoka</td>
+                <td>42</td>
+                <td>Project Manager</td>
+            </tr>
+        </tbody>
+        
+                <td>4</td>
+                <td>jkio</td>
+                <td>4</td>
+                <td>Project Manager</td>
+            </tr>
+    </table>
+</body>
+</html>
