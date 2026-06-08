@@ -1,11 +1,11 @@
 <?php
 // Check if the form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if 
+($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect and sanitize the input data
     $name = htmlspecialchars($_POST['name']);
     $contact = htmlspecialchars($_POST['contact']);
     $email = htmlspecialchars($_POST['email']);
-
     // Display the collected data
     echo "<h2>Your Input:</h2>";
     echo "Name: " . $name . "<br>";
@@ -20,7 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Contact Form</title>
 </head>
 <body>
-
 <h2>Contact Form</h2>
 <
     Name: <input type="text" name="name" required><br><br>
@@ -28,6 +27,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     Email: <input type="email" name="email" required><br><br>
     <input type="submit" name="submit" value="Submit">
 </form>
-
 </body>
 </html>
+<?php 
+
+
+
+>
